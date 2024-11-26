@@ -1,0 +1,6 @@
+Feature: User Management
+
+  Scenario: Retrieve user details
+    Given a user with ID 1 exists
+    When I retrieve user details
+    Then I should receive the user's details
